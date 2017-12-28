@@ -1,0 +1,32 @@
+{
+  "name": "@joefallon/mysql-date",
+  "version": "0.1.0",
+  "description": "An easy to use utility for converting to and from MySQL formatted date-time strings.",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "./node_modules/mocha/bin/mocha",
+    "test": "npm run --silent mocha -- './src**/*.test.js' || true",
+    "test:debug": "npm run mocha -- './src**/*.test.js' --inspect-brk=0.0.0.0:9229"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefallon/mysql-date.js.git"
+  },
+  "author": "Joe Fallon <joseph.t.fallon@gmail.com> (http://blog.joefallon.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joefallon/mysql-date.js/issues"
+  },
+  "homepage": "https://github.com/joefallon/mysql-date.js#readme",
+  "devDependencies": {
+    "@types/mocha": "^2.2.45",
+    "@types/node": "^8.5.2",
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "@types/es6-promise": "0.0.33",
+    "es6-promise": "^4.2.2",
+    "tslib": "^1.8.1"
+  }
+}
