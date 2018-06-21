@@ -1,6 +1,6 @@
 {
   "name": "@joefallon/mysql-date",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An easy to use utility for converting to and from MySQL formatted date-time strings.",
   "main": "index.js",
   "scripts": {
